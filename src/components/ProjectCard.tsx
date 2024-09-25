@@ -14,7 +14,7 @@ const ProjectCard = ({imageUrl, title, content}: TProjectProps) => {
         <h1 className="pb-3 text-3xl text-left text-orange uppercase">
           {title}
         </h1>
-        <p className="text-left">{content}</p>
+        <p className="text-left text-white">{content}</p>
       </div>
     </div>
   );
