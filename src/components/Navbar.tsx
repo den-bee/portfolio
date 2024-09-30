@@ -32,7 +32,7 @@ const Navbar = () => {
           spy={true}
           activeClass="active"
         >
-          <li className={navLinkStyle}>Projects</li>
+          <li className={navLinkStyle}>Contact</li>
         </Link>
       </ul>
     </nav>
