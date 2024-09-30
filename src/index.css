@@ -17,8 +17,8 @@
 }
 
 .drawer::after {
-  content: none !important;  /* Disable the pseudo-element */
-  display: none !important;  /* Ensure it's not displayed */
+  content: none !important; /* Disable the pseudo-element */
+  display: none !important; /* Ensure it's not displayed */
 }
 
 a {

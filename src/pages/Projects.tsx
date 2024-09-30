@@ -1,8 +1,8 @@
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "@/components/ProjectCard";
 
 const Projects = () => {
   return (
-    <main className="h-fit flex flex-col gap-3">
+    <main id="projects" className="h-fit flex flex-col gap-3">
       <ProjectCard
         imageUrl="https://placehold.co/600x400"
         title="Gamecase"

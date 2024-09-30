@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <main className="h-screen flex flex-col justify-center gap-12">
+    <main id="contact" className="h-screen flex flex-col justify-center gap-12">
       <div className="flex flex-col gap-3">
         <p className="text-5xl">Say hello!</p>
         <p className="text-xl">Send me an email at: </p>

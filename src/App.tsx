@@ -7,7 +7,7 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <div className="w-auto h-fit text-green-dark bg-green-pattern bg-cover bg-center bg-no-repeat">
+    <div className="w-fit h-fit text-green-dark bg-green-pattern bg-cover bg-center bg-no-repeat">
       <Header />
       <Home />
       <Projects />

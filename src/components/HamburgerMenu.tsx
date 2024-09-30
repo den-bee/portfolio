@@ -22,10 +22,12 @@ const HamburgerMenu = () => {
             <img className="w-6 h-6" src="./src/assets/icons/cancel.svg" />
           </DrawerClose>
         </DrawerHeader>
-        <nav className="flex flex-col gap-3 pr-5">
-          <p>Home</p>
-          <p>Projects</p>
-          <p>Contact</p>
+        <nav className="pr-5">
+          <ul className="flex flex-col gap-3">
+            <li>Home</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
         </nav>
       </DrawerContent>
     </Drawer>

@@ -1,10 +1,12 @@
+import {FC} from "react";
+
 type TProjectProps = {
   imageUrl: string;
   title: string;
   content: string;
 };
 
-const ProjectCard = ({imageUrl, title, content}: TProjectProps) => {
+const ProjectCard: FC<TProjectProps> = ({imageUrl, title, content}) => {
   return (
     <div className="m-6">
       <div className="mb-3 border-2 rounded-lg">
