@@ -9,9 +9,15 @@ function App() {
   return (
     <div className="w-fit h-fit text-green-dark bg-green-pattern bg-cover bg-center bg-no-repeat">
       <Header />
-      <Home />
-      <Projects />
-      <Contact />
+      <div id="home">
+        <Home />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }
