@@ -6,40 +6,38 @@ const Navbar = () => {
   const activeNavLinkStyle = "bg-green-dark-secondary border-white";
 
   return (
-    <nav>
-      <div className="flex gap-3">
-        <Link
-          to="home"
-          smooth={true}
-          duration={500}
-          spy={true}
-          className={navLinkStyle}
-          activeClass={activeNavLinkStyle}
-        >
-          Home
-        </Link>
-        <Link
-          to="projects"
-          smooth={true}
-          duration={500}
-          spy={true}
-          offset={0.5}
-          className={navLinkStyle}
-          activeClass={activeNavLinkStyle}
-        >
-          Projects
-        </Link>
-        <Link
-          to="contact"
-          smooth={true}
-          duration={500}
-          spy={true}
-          className={navLinkStyle}
-          activeClass={activeNavLinkStyle}
-        >
-          Contact
-        </Link>
-      </div>
+    <nav className="flex gap-3">
+      <Link
+        to="home"
+        smooth={true}
+        duration={500}
+        spy={true}
+        className={navLinkStyle}
+        activeClass={activeNavLinkStyle}
+      >
+        Home
+      </Link>
+      <Link
+        to="projects"
+        smooth={true}
+        duration={500}
+        spy={true}
+        offset={0.5}
+        className={navLinkStyle}
+        activeClass={activeNavLinkStyle}
+      >
+        Projects
+      </Link>
+      <Link
+        to="contact"
+        smooth={true}
+        duration={500}
+        spy={true}
+        className={navLinkStyle}
+        activeClass={activeNavLinkStyle}
+      >
+        Contact
+      </Link>
     </nav>
   );
 };

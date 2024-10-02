@@ -8,7 +8,7 @@ type TProjectProps = {
 
 const ProjectCard: FC<TProjectProps> = ({imageUrl, title, content}) => {
   return (
-    <div className="m-6">
+    <div>
       <div className="mb-3 border-2 rounded-lg">
         <img src={imageUrl} />
       </div>

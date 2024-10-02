@@ -24,43 +24,41 @@ const HamburgerMenu = () => {
             <img className="w-6 h-6" src="./src/assets/icons/cancel.svg" />
           </DrawerClose>
         </DrawerHeader>
-        <nav className="pr-5">
-          <div className="flex flex-col gap-3">
-            <DrawerClose asChild>
-              <Link
-                onClick={closeDrawer}
-                to="home"
-                smooth={true}
-                duration={500}
-                spy={true}
-                className="text-white hover:text-white"
-              >
-                Home
-              </Link>
-            </DrawerClose>
-            <DrawerClose asChild>
-              <Link
-                to="projects"
-                smooth={true}
-                duration={500}
-                spy={true}
-                className="text-white hover:text-white"
-              >
-                Projects
-              </Link>
-            </DrawerClose>
-            <DrawerClose asChild>
-              <Link
-                to="contact"
-                smooth={true}
-                duration={500}
-                spy={true}
-                className="text-white hover:text-white"
-              >
-                Contact
-              </Link>
-            </DrawerClose>
-          </div>
+        <nav className="pr-5 flex flex-col gap-3">
+          <DrawerClose asChild>
+            <Link
+              onClick={closeDrawer}
+              to="home"
+              smooth={true}
+              duration={500}
+              spy={true}
+              className="text-white hover:text-white"
+            >
+              Home
+            </Link>
+          </DrawerClose>
+          <DrawerClose asChild>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              spy={true}
+              className="text-white hover:text-white"
+            >
+              Projects
+            </Link>
+          </DrawerClose>
+          <DrawerClose asChild>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              spy={true}
+              className="text-white hover:text-white"
+            >
+              Contact
+            </Link>
+          </DrawerClose>
         </nav>
       </DrawerContent>
     </Drawer>

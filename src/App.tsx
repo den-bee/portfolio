@@ -7,16 +7,18 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <div className="w-fit h-fit text-green-dark bg-green-pattern bg-cover bg-center bg-no-repeat">
+    <div className="w-fit h-fit text-white bg-green-pattern bg-cover bg-center bg-no-repeat">
       <Header />
-      <div id="home">
-        <Home />
-      </div>
-      <div id="projects">
-        <Projects />
-      </div>
-      <div id="contact">
-        <Contact />
+      <div className="md:mx-20">
+        <div id="home">
+          <Home />
+        </div>
+        <div className="m-6 sm:m-0" id="projects">
+          <Projects />
+        </div>
+        <div id="contact">
+          <Contact />
+        </div>
       </div>
     </div>
   );
