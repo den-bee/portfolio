@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="w-fit h-fit text-white bg-green-pattern bg-cover bg-center bg-no-repeat">
       <Header />
-      <div className="md:mx-20">
+      <div className="sm:mx-20">
         <div id="home">
           <Home />
         </div>

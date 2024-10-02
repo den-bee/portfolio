@@ -18,7 +18,7 @@ export default {
         "green-dark": "#094F40",
         "green-dark-secondary": "#0C6C59",
         "green-light": "#5BA28F",
-        orange: "#FF7F50",
+        orange: "#FFA07A",
         white: "#E5E5E5",
       },
       borderRadius: {
