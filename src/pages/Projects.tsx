@@ -1,18 +1,14 @@
+import {gamecaseImagesArray} from "@/assets/images/imagesExport";
+import ImageCarousel from "@/components/ImageCarousel";
 import ProjectCard from "@/components/ProjectCard";
 
 const Projects = () => {
   return (
-    <main className="min-h-fit flex flex-col gap-12">
+    <main className="h-screen flex flex-col justify-center gap-12">
       <ProjectCard
-        imageUrl="https://placehold.co/800x800"
-        title="Gamecase"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque arcu eget leo imperdiet, nec venenatis tortor convallis. Morbi porttitor congue nisi non pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas ac nisl ipsum. Pellentesque quis orci ac mi vehicula fermentum vel sit amet justo. "
-      />
-      <ProjectCard
-        imageUrl="https://placehold.co/800x800"
-        title="Gamecase"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque arcu eget leo imperdiet, nec venenatis tortor convallis. Morbi porttitor congue nisi non pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas ac nisl ipsum. Pellentesque quis orci ac mi vehicula fermentum vel sit amet justo. "
-        reverse={true}
+        dialog={<ImageCarousel imagesArray={gamecaseImagesArray} />}
+        title="Gamecase - [WORK IN PROGRESS]"
+        content="I've always wanted a wishlist in my pocket for games across all platforms. This is a hobby project made with React Native and based on the rawg.io website, using the rawg.io API. The homepage has an overview of the most trending games. You can search for games and add them to you wishlist or add them to your personal collection."
       />
     </main>
   );

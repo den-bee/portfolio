@@ -1,3 +1,5 @@
+import {Link} from "react-scroll";
+
 const Home = () => {
   return (
     <main className="h-screen flex flex-col justify-evenly">
@@ -24,7 +26,17 @@ const Home = () => {
         </div>
         <div className="w-fit flex flex-col self-center md:self-start text-5xl">
           <p>Check out my</p>
-          <p className="text-orange">projects.</p>
+
+          <p>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-orange hover:text-orange-dark"
+            >
+              projects.
+            </Link>
+          </p>
         </div>
       </section>
     </main>
