@@ -8,26 +8,26 @@ import {
   DrawerTitle,
   DrawerDescription,
 } from "./Drawer";
+import hamburger from "../assets/icons/burger.svg";
+import cancel from "../assets/icons/cancel.svg";
 
 const HamburgerMenu = () => {
-  const closeDrawer = () => {};
   return (
     <Drawer direction="right">
       <DrawerTrigger asChild>
-        <img className="w-6 h-6" src="./src/assets/icons/burger.svg" />
+        <img className="w-6 h-6" src={hamburger} />
       </DrawerTrigger>
       <DrawerContent>
         <DrawerHeader>
           <DrawerTitle>Navigation</DrawerTitle>
           <DrawerDescription />
           <DrawerClose asChild>
-            <img className="w-6 h-6" src="./src/assets/icons/cancel.svg" />
+            <img className="w-6 h-6" src={cancel} />
           </DrawerClose>
         </DrawerHeader>
         <nav className="pr-5 flex flex-col gap-3">
           <DrawerClose asChild>
             <Link
-              onClick={closeDrawer}
               to="home"
               smooth={true}
               duration={500}

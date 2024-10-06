@@ -2,7 +2,6 @@ import {forwardRef, useState} from "react";
 import overview from "../assets/images/gamecase/gamecase-overview.png";
 
 const ImageCard = forwardRef<HTMLDivElement>((props, ref) => {
-  // Corrected: Wrapped props and ref in parentheses
   const [isHovering, setIsHovering] = useState(false);
 
   return (

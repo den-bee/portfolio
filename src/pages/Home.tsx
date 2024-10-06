@@ -1,4 +1,5 @@
 import {Link} from "react-scroll";
+import laptop from "../assets/images/laptop.png";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
           </div>
         </div>
         <div className="w-72 xl:block hidden">
-          <img className="absolute" src="./src/assets/images/laptop.png" />
+          <img className="absolute" src={laptop} />
         </div>
         <div className="w-fit flex flex-col self-center md:self-start text-5xl">
           <p>Check out my</p>
