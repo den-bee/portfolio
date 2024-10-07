@@ -12,7 +12,7 @@ export default {
         "2xl": "1536px",
       },
       backgroundImage: {
-        "green-pattern": "url('public/images/background.png')",
+        "green-pattern": "url('images/background.png')",
       },
       colors: {
         "green-dark": "#094F40",
