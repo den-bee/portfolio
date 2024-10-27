@@ -13,7 +13,7 @@ export default {
         "3xl": "1930px",
       },
       backgroundImage: {
-        "green-pattern": "url('images/background.png')",
+        "green-pattern": "url('/images/background.png')",
       },
       colors: {
         "green-dark": "#094F40",
